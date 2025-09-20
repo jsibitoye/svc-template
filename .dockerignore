@@ -1,0 +1,38 @@
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output of go build
+/bin/
+*.out
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Dependency directories
+vendor/
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.iml
+
+# Git
+.git
+.gitignore
+
+# Docker files
+Dockerfile*
+docker-compose*
+
+# OS files
+.DS_Store
+Thumbs.db
